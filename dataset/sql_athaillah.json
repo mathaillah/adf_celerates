@@ -1,0 +1,21 @@
+{
+	"name": "sql_athaillah",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "athaillah_sqlsever",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"container": {
+				"type": "string",
+				"defaultValue": "adf"
+			},
+			"folder": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
