@@ -1,0 +1,9 @@
+{
+	"name": "athallahADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b7d3fbcf-ff1b-41e5-949b-2834abc9c663",
+		"tenantId": "ee586e2b-824e-433d-8a66-8349234cb9b2"
+	}
+}
