@@ -1,0 +1,26 @@
+{
+	"name": "json_azure_athaillah_file_share",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "athaillahBlobStorage",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"container": {
+				"type": "string",
+				"defaultValue": "adf"
+			},
+			"folder": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation"
+			}
+		},
+		"schema": {}
+	}
+}
